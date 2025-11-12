@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: node;
+}
+
+.start_page_search {
+    margin: auto;
+}
+
+input {
+    margin: auto;
+
+
+    width: 50%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border-radius: 20px;
+    border: 1px solid #000;
+}
