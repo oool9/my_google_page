@@ -10,4 +10,4 @@ app.get("/", (_, res) => {
     error.sendFile(join(__dirname, "public", "index.html"));
 });
 
-app.listen(4000, err => err ? console.error(err): console.log("Working..."));
+app.listen(4000, err => err ? console.error(err): console.log("Working... 4000"));
