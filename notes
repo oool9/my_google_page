@@ -1,0 +1,39 @@
+
+<div class="bottom_line2">
+    <div class="bottom_line2_1">
+        <p class="bottom_text2">About</p>
+        <p class="bottom_text2">Advertising</p>
+        <p class="bottom_text2">Business</p>
+        <p class="bottom_text2">How Search works</p>
+    </div>
+
+    <div class="bottom_line2_2">
+        <p class="bottom_text3">Privacy</p>
+        <p class="bottom_text3">Terms</p>
+        <p class="bottom_text3">Settings</p>
+    </div>
+</div>
+
+
+.bottom_line2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* border: 1px solid #000; */
+}
+.bottom_line2_1 {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: start;
+    width: 50%;
+    /* border: 1px solid black; */
+    gap: 30px;
+}
+.bottom_line2_2 {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: end;
+    width: 50%;
+    /* border: 1px solid black; */
+    gap: 30px;
+}

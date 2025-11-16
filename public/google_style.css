@@ -55,12 +55,62 @@ input {
 }
 .top_text1 {
     text-align: right;
+    color: rgba(0,0,0,.87);
+    font-size: 13px;   
+}
+
+.bottom_text1 {
+    display: flex;
+    font-size: 15px;
+    padding: 15px 30px;
+    border-bottom: 1px solid grey;
     flex-flow: wrap;
+
+}
+
+.bottom_line {
+    width: 100%;
+   
+}
+
+.bottom_text2 {
+    display: flex;
+    justify-content: start;
+}
+.bottom_text3 {
+    display: flex;
+    justify-content: end;
     
 }
-a {
-    color: rgba(0,0,0,.87);
-    font-size: 13px;
 
 
+
+
+.bottom_line2 {
+    display: flex;
+    flex-flow: wrap row;
+    width: 100%;
+    /* border: 1px solid #000; */
 }
+.bottom_line2_1 {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: start;
+    width: 400px
+    /* border: 1px solid black; */
+    gap: 30px;
+}
+.bottom_line2_2 {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: end;
+    width: 300px
+    /* border: 1px solid black; */
+    gap: 30px;
+}
+
+
+
+
+
+
