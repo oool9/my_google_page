@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     border: none;
-    outline: node;
+    outline: bottom_linenode;
     text-decoration: none;
 
     
@@ -16,6 +16,10 @@
     /* border: 1px solid #000; */
 }
 
+.flex {
+    display: flex;
+    flex-flow: column;
+}
 .start_page_search {
     display: flex;
     justify-content: center;
@@ -59,18 +63,22 @@ input {
     font-size: 13px;   
 }
 
-.bottom_text1 {
+.bottom_line1 {
     display: flex;
     font-size: 15px;
-    padding: 15px 30px;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #d2d2d2;;
     flex-flow: wrap;
-
+    padding: 15px 15px 15px 30px;
 }
 
 .bottom_line {
+    display: flex;
     width: 100%;
-   
+    flex-flow: column;
+    text-align: end;
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0px;
 }
 
 .bottom_text2 {
@@ -79,8 +87,7 @@ input {
 }
 .bottom_text3 {
     display: flex;
-    justify-content: end;
-    
+    justify-content: end;  
 }
 
 
@@ -88,25 +95,26 @@ input {
 
 .bottom_line2 {
     display: flex;
-    flex-flow: wrap row;
     width: 100%;
-    /* border: 1px solid #000; */
+    justify-content: center;
 }
 .bottom_line2_1 {
     display: flex;
     flex-flow: wrap;
-    justify-content: start;
-    width: 400px
-    /* border: 1px solid black; */
-    gap: 30px;
+    justify-content: start;width: 100%;
+    width: 50%;
+    gap: 15px;
+    padding: 15px 15px 15px 30px;
+
 }
 .bottom_line2_2 {
     display: flex;
     flex-flow: wrap;
     justify-content: end;
-    width: 300px
-    /* border: 1px solid black; */
+    width: 50%;
     gap: 30px;
+    padding: 15px 30px 15px 15px;
+
 }
 
 
